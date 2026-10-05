@@ -30,8 +30,8 @@
         border-bottom: 1px solid #e6e6e6;
       }
 
-      #abot ol {
-        color:3333333;
+      #about ol {
+        color:333333;
         margin: 8px 0;
         padding: 8px 24px;
         border: 1px solid #e6e6e6;
@@ -46,7 +46,7 @@
       }
 
       #contact h2 {
-        color: #f8fafc;
+        color: #f003366;
         border-bottom: 2px solid #003366;
         padding-bottom: 6px;
         margin-bottom: 16px;
@@ -63,7 +63,7 @@
 
       .input-form {
         backround-color: #ffffff;
-        color: #1f2937;
+        color: #111827;
         font family: Arial, sans-serif;
         font-size: 16px;
         padding: 8px;
@@ -82,7 +82,6 @@
   </style>
 </head>
 <body>
-
   <header>
     <h1>Profil Mahasiswa</h1>
     <nav>
@@ -95,15 +94,14 @@
   </header>
 
   <main>
-
-    <section id="beranda">
+    <section id="home">
       <h2>Selamat Datang</h2>
       <p>Halo, saya Dhifa Fahrunnisah. Saya sedang mempelajari Pemrograman Web Dasar.</p>
-      <img src="img/foto.jpg" alt="Foto profil Dhifa Fahrunnisah" width="150">
+      <img src="img/foto.jpg" alt="Foto profil Dhifa Fahrunnisah" />
     </section>
 
-    <section id="tentang">
-      <h2>Tentang Saya</h2>
+    <section id="about">
+      <h2>Selamat Datang</h2>
       <article>
         <h3>Profil Singkat</h3>
         <p>Saya mahasiswa Program Studi Sistem Informasi.</p>
@@ -167,7 +165,7 @@ max="14" required />
             <label for="minat-html">HTML</label>
             <input type="checkbox" id="minat-css" name="minat" value="css" />            
             <label for="minat-css">CSS</label>
-        </form>div
+        </div
 
         <div class="form-group">
             <label for="prodi">Program Studi</label><br />
@@ -183,6 +181,7 @@ max="14" required />
             <textarea
               class="input-form"
               id="pesan"
+              name="pesan"
               maxlength="300"
               placeholder="Tulis pesan anda"
               required
@@ -190,13 +189,13 @@ max="14" required />
         </div>
 
         <button type="submit">Kirim</button>
-        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
       </form>
     </section>
   </main>
 
   <footer>
-     <p>&copy; 2026 Dhifa Fahrunnisah 2622500009</p>
+     <p>&copy; 2026 Dhifa Fahrunnisah [2622500009]</p>
    </footer>
  </body>
 </html>
