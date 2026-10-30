@@ -1,3 +1,14 @@
+<!DOOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8"
+</head>
+
+<body>
+
+</body>
+</html>
 <?php
 $file =" pesan.json"
 
@@ -95,3 +106,5 @@ if (!is_array($tamu)) {
         </div>
 
     <?php endforeach; ?>
+
+    </section>
