@@ -39,3 +39,18 @@ if  ($_SERVER["REQUEST_METHOD"]=="POST") {
         exit;
     }
 }
+
+// Membaca pesan pengunjung
+$tamu = json_decode(
+    file_get_contents($file), true
+);
+
+if (!is_array($tamu)) {
+    $tamu = [];
+}
+?>
+
+<section class="buku-tamu" id="buku-tamu">
+
+    <h2>Buku Tamu</h2>
+    <p>Silakan tinggalkan pesan dan kesan Anda.</p>
