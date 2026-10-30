@@ -9,6 +9,10 @@
 
 </body>
 </html>
+<header>
+    <h1>Dhifa Flatshoes</h1>
+    <p>Elegant Flatshoes for You</p>
+</header>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Dhifa Flatshoes</title>  
