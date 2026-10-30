@@ -1,6 +1,5 @@
-<!DOOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
-
 <head>
     <meta charset="UTF-8"
 </head>
@@ -24,11 +23,11 @@
     <title>Dhifa Flatshoes</title>  
     <link rel="stylesheet" href="style.css"> 
 <?php
-$file =" pesan.json"
+$file =" pesan.json";
 
 //Membuat file jika belum tersedia 
 if (!file_exists($file)) {
-    file_put_contents($file, "[]"
+    file_put_contents($file, "[]");
 }    
 
 //Mengirim pesan buku tamu
