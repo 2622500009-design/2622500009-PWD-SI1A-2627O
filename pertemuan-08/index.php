@@ -14,6 +14,12 @@
     <p>Elegant Flatshoes for You</p>
 </header>
 
+<main>  
+    <h2>Selamat Datang di Dhifa Flatshoes</h2>  
+    <p>Temukan flatshoes cantik dan nyaman untuk aktivitasmu.</p>  
+</main>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Dhifa Flatshoes</title>  
     <link rel="stylesheet" href="style.css"> 
