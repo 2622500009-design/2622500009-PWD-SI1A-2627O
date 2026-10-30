@@ -54,3 +54,23 @@ if (!is_array($tamu)) {
 
     <h2>Buku Tamu</h2>
     <p>Silakan tinggalkan pesan dan kesan Anda.</p>
+
+    <form method="POST" class="form-tamu">
+
+        <label>Nama Pengunjung</label>
+
+        <input type="text" name="nama"
+               placeholder="Masukkan nama Anda"
+               required>
+
+        <label>Pesan dan Kesan</label>
+
+        <textarea name="pesan"
+                  placeholder="Tuliskan pesan Anda"
+                  required></textarea>
+
+        <button type="submit" class="btn">
+            Kirim Pesan
+        </button>
+
+    </form>
