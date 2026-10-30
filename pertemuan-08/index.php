@@ -74,3 +74,24 @@ if (!is_array($tamu)) {
         </button>
 
     </form>
+
+<h3>Pesan Pengunjung</h3>
+<?php foreach (array_reverse($tamu) as $data): ?>
+
+        <div class="pesan-card">
+
+            <h4>
+                <?= htmlspecialchars($data["nama"]) ?>
+            </h4>
+
+            <small>
+                <?= htmlspecialchars($data["tanggal"]) ?>
+            </small>
+
+            <p>
+                <?= nl2br(htmlspecialchars($data["pesan"])) ?>
+            </p>
+
+        </div>
+
+    <?php endforeach; ?>
