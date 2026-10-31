@@ -92,18 +92,101 @@ if (!is_array($tamu)) {
         </p>
 
 <!-- Galeri Foto -->
-        <div class="galeri-produk">
+<div class="galeri-produk">
 
-            <img src="assets/flatshoes1.jpg" alt="Flatshoes 1">
+    <!-- Banner Toko -->
+    <img src="assets/banner.jpg.jpeg" alt="Banner Dhifa Flatshoes">
 
-            <img src="assets/flatshoes2.jpg" alt="Flatshoes 2">
+    <!-- Foto Flatshoes -->
+    <img src="assets/flatshoes1.jpg" alt="Flatshoes 1">
+    <img src="assets/flatshoes2.jpg" alt="Flatshoes 2">
+    <img src="assets/flatshoes3.jpg" alt="Flatshoes 3">
 
-            <img src="assets/flatshoes3.jpg" alt="Flatshoes 3">
+</div>
+</body>
+<\main>
 
-            
+<!-- Produk -->
+        <section id="produk">
 
-        </div>
+            <h2>Produk Andalan</h2>
 
+            <div class="produk-card">
+
+                <img src="assets/flatshoes1.jpg"
+                     alt="Flatshoes Elegant">
+
+                <h3>Flatshoes Elegant</h3>
+
+                <p>
+                    Flatshoes dengan desain elegan,
+                    nyaman digunakan untuk kegiatan sehari-hari.
+                </p>
+
+            </div>
+
+        </section>
+
+<!-- Profil -->
+        <section id="profil">
+            <h2>Profil Saya</h2>
+
+            <p>Nama: [Dhifa Fahrunnisah]</p>
+            <p>NIM: [2622500009]</p>
+            <p>Program Studi: [Sistem Informasi]</p>
+
+        </section>
+    </main>
+
+<!-- Buku Tamu -->
+    <section class="buku-tamu" id="buku-tamu">
+
+        <h2>Buku Tamu</h2>
+
+        <p>Silakan tinggalkan pesan dan kesan Anda.</p>
+
+        <form method="POST" class="form-tamu">
+
+            <label>Nama Pengunjung</label>
+
+            <input type="text"
+                   name="nama"
+                   placeholder="Masukkan nama Anda"
+                   required>
+
+            <label>Pesan dan Kesan</label>
+
+            <textarea name="pesan"
+                      placeholder="Tuliskan pesan Anda"
+                      required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+
+        </form>
+
+        <h3>Pesan Pengunjung</h3>
+
+        <?php foreach (array_reverse($tamu) as $data): ?>
+
+            <div class="pesan-card">
+
+                <h4>
+                    <?= htmlspecialchars($data["nama"]) ?>
+                </h4>
+
+                <small>
+                    <?= htmlspecialchars($data["tanggal"]) ?>
+                </small>
+
+                <p>
+                    <?= nl2br(htmlspecialchars($data["pesan"])) ?>
+                </p>
+
+            </div>
+
+        <?php endforeach; ?>
+
+    </section>
 
 <section class="buku-tamu" id="buku-tamu">
 
