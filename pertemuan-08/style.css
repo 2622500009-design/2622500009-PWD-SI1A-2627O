@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#f3f6fb;
+    background:#c5d3eb;
 }
 
 /* Navbar */
@@ -41,11 +41,17 @@ body{
 
 /* Hero */
 .hero{
+    height: 500px;
+
+    backround-image: url('assets/banner.jpg');
+    backround-repeat: no-repeat;
+    backroung position: center;
+    backround-size: cover;
+
     display:flex;
     align-items:center;
-    justify-content:space-between;
+    
     padding:50px;
-    background:#e9f1ff;
 }
 
 .hero-text{
@@ -136,7 +142,7 @@ body{
 
 .box{
     padding:20px;
-    background:white;
+    background:#b6caec;
     border-radius:15px;
 }
 
@@ -151,7 +157,7 @@ body{
 
 /* Footer */
 footer{
-    background:#355987;
+    background:#1a2e49;
     color:white;
     text-align:center;
     padding:20px;

@@ -1,5 +1,5 @@
 <?php
-include "koneksi.php";
+//include ("koneksi.php");
 ?>
 
 <!DOCTYPE html>
@@ -54,9 +54,6 @@ include "koneksi.php";
         </a>
     </div>
 
-    <div class="hero-image">
-        <img src="assets/banner.jpg" alt="">
-    </div>
 </section>
 
 <!-- Produk -->
