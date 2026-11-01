@@ -180,6 +180,15 @@ repeat(auto-fit, minmax(220px, 1fr));
   margin-bottom: 15px;
 }
 
+/* Bikin produk jadi grid rapi */
+.produk-container , .product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+  justify-items: center;
+}
+
 /* TENTANG TOKO */
 .tentang {
   padding: 70px 12%;
