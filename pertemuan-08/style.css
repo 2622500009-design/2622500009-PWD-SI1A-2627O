@@ -56,6 +56,7 @@ body{
 
 .hero-text{
     width:50%;
+    z-index:1;
 }
 
 .hero-text h1{
