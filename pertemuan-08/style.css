@@ -303,3 +303,51 @@ repeat(auto-fit, minmax(220px, 1fr));
 .kontak > p {
   margin-bottom: 20px;
 }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #567A9F;
+  color: white;
+}
+
+footer h3 {
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+header {  
+    flex-direction: column;  
+}  
+
+nav {  
+    text-align: center;  
+}  
+
+nav a {  
+    display: inline-block;  
+    margin: 5px;  
+}  
+
+.hero {  
+    padding: 45px 6%;  
+}  
+
+.hero h2 {  
+    font-size: 34px;  
+}  
+
+.profil {  
+    flex-direction: column;  
+    text-align: center;  
+}  
+
+.profil img {  
+    width: 180px;  
+}
+
+}
