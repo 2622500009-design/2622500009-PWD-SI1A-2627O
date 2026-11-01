@@ -132,19 +132,19 @@ nav a:hover {
   margin: 8px 0;
 }
 
-#produk { padding: 20px; }
+/* PRODUK */
 
-.produk-card {
-  width: 200px;
-  padding: 10px;
-  text-align: center;
+.galeri-produk {
+  diplay: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
 
-.produk-card img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  backround:fff;
+.galeri-produk {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
   border-radius: 10px
 }
 
