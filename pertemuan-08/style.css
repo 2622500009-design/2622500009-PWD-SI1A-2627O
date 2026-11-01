@@ -94,3 +94,212 @@ nav a:hover {
   object-fit: cover;
   border-radius: 25px;
 }
+
+/* TOMBOL */
+.tombol {
+  display: inline-block;
+  background: #729CC5;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.tombol:hover {
+  background: #45698E;
+  transform: translateY(-3px);
+}
+
+/* JUDUL */
+.judul {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.judul p {
+  color: #8BB5DC;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.judul h2 {
+  color: #45698E;
+  font-size: 30px;
+  margin: 8px 0;
+}
+
+/* PRODUK */
+.produk {
+  padding: 70px 8%;
+  background: #E6F1FB;
+}
+
+.produk-container {
+  display: grid;
+  grid-template-columns:
+repeat(auto-fit, minmax(220px, 1fr));
+ gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 5px 18px #567a9f18;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.card h3 {
+  color: #45698E;
+  margin: 12px 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  color: #729CC5;
+  margin-bottom: 15px;
+}
+
+/* TENTANG TOKO */
+.tentang {
+  padding: 70px 12%;
+  text-align: center;
+}
+
+.tentang > p {
+  max-width: 850px;
+  margin: auto;
+}
+
+/* IDENTITAS */
+.identitas {
+  background: #E6F1FB;
+  padding: 70px 8%;
+}
+
+.profil {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 5px 18px #567a9f18;
+}
+
+.profil img {
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.profil-text h3 {
+  color: #45698E;
+  margin: 10px 0;
+}
+
+/* BUKU TAMU */
+.buku-tamu {
+  padding: 70px 8%;
+}
+
+.form-tamu {
+  max-width: 600px;
+  background: white;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px #567a9f18;
+}
+
+.form-tamu label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.form-tamu input,
+.form-tamu textarea {
+  width: 100%;
+  padding: 13px;
+  margin-top: 7px;
+  border: 1px solid #C8DDF0;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  }
+
+.form-tamu input:focus,
+.form-tamu textarea:focus {
+  border-color: #729CC5;
+}
+
+.form-tamu textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-tamu button {
+  margin-top: 20px;
+}
+
+/* DAFTAR PESAN */
+.daftar-tamu {
+  max-width: 700px;
+  margin: 45px auto 0;
+}
+
+.daftar-tamu h3 {
+  margin-bottom: 20px;
+  color: #45698E;
+}
+
+.pesan-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  border-left: 5px solid #8BB5DC;
+}
+
+.pesan-card h4 {
+  color: #45698E;
+}
+
+.pesan-card small {
+  color: #8A9EB3;
+}
+
+/* KONTAK */
+.kontak {
+  text-align: center;
+  padding: 65px 8%;
+  background: #E6F1FB;
+}
+
+.kontak > p {
+  margin-bottom: 20px;
+}
