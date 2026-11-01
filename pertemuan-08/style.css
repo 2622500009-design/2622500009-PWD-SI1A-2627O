@@ -6,7 +6,12 @@
 }
 
 body{
-    background:#c5d3eb;
+    background: linear-gradient(
+        to bottom,
+        #e0f7ff,
+        #ffffff
+    );
+    font-family: poppins, sans-serif;
 }
 
 /* Navbar */
@@ -143,7 +148,7 @@ body{
 
 .box{
     padding:20px;
-    background:#334d79;
+    background:#6b8dc7;
     border-radius:15px;
 }
 
