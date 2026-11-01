@@ -1,9 +1,13 @@
+<?php
+include "koneksi.php";
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Flats</title>
+    <title>Dhifa Flatshoes</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -15,7 +19,7 @@
 <!-- Navbar -->
 <nav class="navbar">
     <div class="logo">
-        <h1>Blue Flats</h1>
+        <h1>Dhifa Flatshoes</h1>
         <p>Elegant Shoes, Comfortable Steps</p>
     </div>
 
@@ -33,7 +37,7 @@
 <!-- Hero -->
 <section class="hero">
     <div class="hero-text">
-        <h4>WELCOME TO DHIFA FLATSOES</h4>
+        <h4>WELCOME TO DHIFA FLATSHOES</h4>
 
         <h1>
             Step Into Style With
@@ -148,7 +152,7 @@
 <footer>
     <h3>DHIFA FLATSHOES</h3>
     <p>Elegant Shoes, Comfortable Steps.</p>
-    <p>© 2026 Dhifa Flatshoes. All Rights Reserved.</p>
+    <p>&copy; 2026 Dhifa Flatshoes. All Rights Reserved.</p>
 </footer>
 
 </body>
