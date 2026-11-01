@@ -188,50 +188,11 @@ if (!is_array($tamu)) {
 
     </section>
 
-<section class="buku-tamu" id="buku-tamu">
+<!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Dhifa Flatshoes</p>
+        <p>Elegant Flatshoes for You</p>
+    </footer>
 
-    <h2>Buku Tamu</h2>
-    <p>Silahkan tinggalkan pesan dan kesan Anda.</p>
-
-    <form method="POST" class="form-tamu">
-
-        <label>Nama Pengunjung</label>
-
-        <input type="text" name="nama"
-               placeholder="Masukkan nama Anda"
-               required>
-
-        <label>Pesan dan Kesan</label>
-
-        <textarea name="pesan"
-                  placeholder="Tuliskan pesan Anda"
-                  required></textarea>
-
-        <button type="submit" class="btn">
-            Kirim Pesan
-        </button>
-
-    </form>
-
-<h3>Pesan Pengunjung</h3>
-<?php foreach (array_reverse($tamu) as $data): ?>
-
-        <div class="pesan-card">
-
-            <h4>
-                <?= htmlspecialchars($data["nama"]) ?>
-            </h4>
-
-            <small>
-                <?= htmlspecialchars($data["tanggal"]) ?>
-            </small>
-
-            <p>
-                <?= nl2br(htmlspecialchars($data["pesan"])) ?>
-            </p>
-
-        </div>
-
-    <?php endforeach; ?>
-
-    </section>
+</body>
+</html>

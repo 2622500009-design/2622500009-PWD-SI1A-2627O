@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #F3F8FD;
+  color: #354D68;
+  line-height: 1.6;
+}
+
+/* NAVIGASI */
+header {
+background: #DCEBFA;
+padding: 18px 7%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 12px;
+}
+
+.logo {
+color: #45698E;
+font-size: 24px;
+}
+
+nav a {
+text-decoration: none;
+color: #354D68;
+margin-left: 15px;
+font-weight: bold;
+font-size: 14px;
+}
+
+nav a:hover {
+color: #8BB5DC;
+}
