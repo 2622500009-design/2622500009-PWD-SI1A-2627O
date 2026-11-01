@@ -6,12 +6,10 @@
 }
 
 body{
-    background: linear-gradient(
-        to bottom,
-        #e0f7ff,
-        #ffffff
-    );
-    font-family: poppins, sans-serif;
+    background: #F3F8FD;
+    color: #354D68;
+    Line-height: 1.6
+    font-family: Arial, sans-serif;
 }
 
 /* Navbar */
@@ -19,8 +17,9 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 50px;
-    background:white;
+    padding:20px;
+    background:DCEBFA;
+    gap: 10px;
 }
 
 .navbar ul{
@@ -167,4 +166,29 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
+}
+/* MEMPERBAIKI TAMPILAN BAGIAN WEBSITE */
+.tentang,
+.identitas,
+.buku-tamu,
+.kontak {
+    padding: 35px 6%;
+}
+
+/* IDENTITAS PEMILIK */
+.profil {
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profil img {
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;
 }
