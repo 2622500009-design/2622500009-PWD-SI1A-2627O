@@ -160,7 +160,7 @@ repeat(auto-fit, minmax(150px, 1fr));
 
 .card img {
   width: 100%;
-  height: 150px;
+  height: 100px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -180,14 +180,33 @@ repeat(auto-fit, minmax(150px, 1fr));
   margin-bottom: 15px;
 }
 
-/* Bikin produk jadi grid rapi */
-.produk-container , .product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 15px;
-  padding: 20px 0;
-  justify-items: center;
+/* Biar galeri banner yang gede tadi jadi kecil 3 kolom */
+.galeri-produk{
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 10px !important;
+  padding: 15px !important;
 }
+.galeri-produk img{
+  width: 100% !important;
+  height: 120px !important;
+  object-fit: cover !important;
+  border-radius: 10px !important;
+}
+
+/* Biar produk utama kecil rapi */
+#produk{
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) !important;
+  gap: 15px !important;
+  padding: 20px !important;
+}
+.produk-card img{
+  width: 100% !important;
+  height: 130px !important;
+  object-fit: cover !important;
+}
+
 
 /* TENTANG TOKO */
 .tentang {
