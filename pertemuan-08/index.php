@@ -66,7 +66,7 @@
         <div class="card">
             <img src="assets/flatshoes1.jpg">
             <h3>Blue Ribbon Flatshoes</h3>
-            <p>Desain pita biru yang elegan.</p>
+            <p>Flatshoes dengan aksen pita manis dengan kombinasi warna biru dan cream elegan,cocok untuk jalan santai maupun acara semi formal.</p>
             <h4>Rp85.000</h4>
             <button>Pesan Sekarang</button>
         </div>
@@ -74,7 +74,7 @@
         <div class="card">
             <img src="assets/flatshoes2.jpg">
             <h3>Polcadot Flatshoes</h3>
-            <p>Manis dengan aksen polkadot.</p>
+            <p>Motif polkadot yang unik memberikan kesan lucu dan feminim tetapi tetap fashionale,nyaman digunakan untuk akivitas sehari-hari.</p>
             <h4>Rp95.000</h4>
             <button>Pesan Sekarang</button>
         </div>
@@ -82,7 +82,7 @@
         <div class="card">
             <img src="assets/flatshoes3.jpg">
             <h3>Casual Flatshoes</h3>
-            <p>Desain sederhana dan nyaman.</p>
+            <p>Desain minimalis dengan warna netral yang mudah dipadukan dengan berbagai outfit,memberikan kenyamanan sepanjang hari.</p>
             <h4>Rp90.000</h4>
             <button>Pesan Sekarang</button>
         </div>
