@@ -8,7 +8,7 @@
 body{
     background: #F3F8FD;
     color: #354D68;
-    Line-height: 1.6
+    Line-height: 1.6;
     font-family: Arial, sans-serif;
 }
 
@@ -47,10 +47,10 @@ body{
 .hero{
     height: 500px;
 
-    backround-image: url('assets/banner.jpg');
-    backround-repeat: no-repeat;
-    backroung position: center;
-    backround-size: cover;
+    background-image: url('assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     display:flex;
     align-items:center;
@@ -97,18 +97,18 @@ body{
 }
 
 .produk-container{
-    display:flex;
-    justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
     gap:20px;
+    width:90%;
+    margin:auto;
 }
 
 .card{
-    width:280px;
-    background:white;
+    width: 500px;
+    min-height: 350px;
+    background: linear-gradient(to bottom, #38bdf8, #c7ecff);
     border-radius:15px;
-    overflow:hidden;
-    box-shadow:0 0 10px rgba(0,0,0,.1);
-
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -162,25 +162,48 @@ body{
 
 /* Informasi */
 .info{
-    padding:30px;
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
+    width: 90%;
+    margin: auto;
 }
 
 .box{
-    padding:20px;
-    background:#6b8dc7;
-    border-radius:15px;
+    background: #bfefff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
-.box button{
-    margin-top:15px;
-    padding:10px 20px;
-    border:none;
-    background:#c3d8f2;
-    color:white;
-    border-radius:20px;
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td{
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+table th{
+    background: #6fd3ff;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background: #1199dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Footer */
@@ -190,21 +213,7 @@ footer{
     text-align:center;
     padding:20px;
 }
-/* MEMPERBAIKI TAMPILAN BAGIAN WEBSITE */
-.tentang,
-.identitas,
-.buku-tamu,
-.kontak {
-    padding: 35px 6%;
-}
 
-/* MEMPERBAIKI TAMPILAN BAGIAN WEBSITE */
-.tentang,
-.identitas,
-.buku-tamu,
-.kontak {
-    padding: 35px 6%;
-}
 
 /* IDENTITAS PEMILIK */
 .profil {
@@ -219,11 +228,11 @@ footer{
 .profil img {
     width: 150px;
     height: 150px;
-    border-radius: 50%
+    border-radius: 50%;
     object-fit: cover;
     display:block;
     margin:auto;
-    border:4px solid #60a5fa
+    border:4px solid #60a5fa;
 }
 
 /* BUKU TAMU */
@@ -250,9 +259,10 @@ footer{
 
 /* KARTU PRODUK */
 .produk-container {
-    grid-template-columns:
-        repeat(auto-fit, minmax(200px, 1fr));
-    gap: 18px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap
 }
 
 .card img {
@@ -288,61 +298,3 @@ button{
 button:hover{
     background: #1d4ed8;
 }
-
-<div class="container">
-
-    <div class="card">
-        <h2>Tentang Dhifa Flatshoes</h2>
-        <p>
-            Dhifa Flatshoes merupakan toko flatshoes yang menawarkan
-            berbagai model sepatu wanita dengan desain menarik,
-            sederhana dan nyaman digunakan.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>Identitas Pemilik</h2>
-
-        <img src="img/dhifa.jpg" width="180">
-
-        <p>
-            <b>Dhifa Fahrunnisah</b><br>
-            NIM : 2622500009<br>
-            Kelas : SI1A<br>
-            Program Studi : Sistem Informasi
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>Buku Tamu</h2>
-
-        <form method="post">
-
-            <label>Nama Lengkap</label>
-            <input type="text" name="nama">
-
-            <label>Email</label>
-            <input type="email" name="email">
-
-            <label>No HP</label>
-            <input type="text" name="nohp">
-
-            <label>Pesan</label>
-            <textarea name="pesan"></textarea>
-
-            <button type="submit">Kirim</button>
-
-        </form>
-    </div>
-
-    <div class="card">
-        <h2>Hubungi Kami</h2>
-
-        <p>
-            📱 0812-3897-4234<br>
-            📧 dhifaflatshoes@gmail.com<br>
-            📍 Pangkalpinang
-        </p>
-    </div>
-
-</div>
