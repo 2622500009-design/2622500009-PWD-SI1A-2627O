@@ -142,46 +142,9 @@
             <p>
                 <b>Dhifa Fahrunnisah</b><br>
                 NIM : 2622500009<br>
+                Tanggal lahir : 28 Desember 2007<br>
                 Kelas : SI1A<br>
                 Program Studi : Sistem Informasi
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h2>Buku Tamu</h2>
-
-            <form method="post">
-
-                <label>Nama Lengkap</label>
-                <input type="text" name="nama">
-
-                <label>Email</label>
-                <input type="email" name="email">
-
-                <label>No HP</label>
-                <input type="text" name="nohp">
-
-                <label>Pesan</label>
-                <textarea name="pesan"></textarea>
-
-                <button type="submit">Kirim</button>
-
-            </form>
-
-        </div>
-
-
-        <div class="card">
-
-            <h2>Hubungi Kami</h2>
-
-            <p>
-                📱 0812-3897-4234<br>
-                📧 dhifaflatshoes@gmail.com<br>
-                📍 Pangkalpinang
             </p>
 
         </div>
@@ -191,22 +154,6 @@
 
     <!-- Informasi -->
     <section class="info">
-
-        <div class="box" id="tentang">
-
-            <h2>Tentang Dhifa Flatshoes</h2>
-
-            <p>
-                Dhifa Flatshoes merupakan toko flatshoes yang
-                menawarkan berbagai model sepatu wanita
-                dengan desain menarik,sederhana,
-                dan nyaman digunakan.
-
-                Kami ingin memberikan pilihan flatshoes yang menarik untuk menemani aktivitas sehari hari pelanggan.
-            </p>
-
-        </div>
-
 
         <div class="card" id="bukutamu">
 
@@ -270,14 +217,14 @@
 
         </div>
 
-
-        <div class="box" id="kontak">
+<div class="card">
 
             <h2>Hubungi Kami</h2>
 
             <p>
-                Untuk pemesanan dan informasi
-                lebih lanjut.
+                📱 0812-3897-4234<br>
+                📧 dhifaflatshoes@gmail.com<br>
+                📍 Pangkalpinang
             </p>
 
         </div>
