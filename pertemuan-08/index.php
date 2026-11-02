@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<script src="script.js"></script>
+
 <body>
 
     <!-- Navbar -->
@@ -123,18 +125,22 @@
 
 
         <div class="card">
-
+            <section id="tentang">
             <h2>Tentang Dhifa Flatshoes</h2>
 
             <p>Dhifa Flatshoes merupakan toko flatshoes yang menawarkan
                 berbagai model sepatu wanita dengan desain menarik,
-                sederhana dan nyaman digunakan.
+                sederhana dan nyaman digunakan dengan desain stylish,
+                elegan,dan feminin.Cocok digunakan untuk
+                kuliah,bekerja,jalan-jalan,maupun acara santai.
+                Tampil cantik dan percaya diri dengan sepatu
+                yang nyaman di setiap langkah.
         </p>
 
         </div>
 
         <div class="card">
-
+            <section id="identitas">
             <h2>Identitas Pemilik</h2>
 
             <img src="assets/profil.jpg" style="width: 150px; height: 150px; border-radius: 100%; object-fit: cover;">
@@ -218,7 +224,7 @@
         </div>
 
 <div class="card">
-
+            <section id="kontak">
             <h2>Hubungi Kami</h2>
 
             <p>
@@ -226,8 +232,6 @@
                 📧 dhifaflatshoes@gmail.com<br>
                 📍 Pangkalpinang
             </p>
-
-        </div>
 
     </section>
 
@@ -246,12 +250,3 @@
 </body>
 
 </html>
-
-<div class="product-card">
-    <div class="product-image">
-        <img src="assets/sepatu1.jpg">
-    </div>
-    <div class="product-info">
-        <h2>Blue Ribbon Flatshoes</h2>
-    </div>
-</div>
