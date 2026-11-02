@@ -298,3 +298,16 @@ button{
 button:hover{
     background: #1d4ed8;
 }
+
+/* Tombol Pesan Sekarang */
+.produk-card .btn-pesan {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    background: #315b7d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
