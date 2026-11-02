@@ -122,16 +122,33 @@
             Melalui Dhifa Flatshoes, saya ingin menggabungkan minat saya dalam fashion dan teknologi.
     </div>
 
-    <div class="box" id="bukutamu">
-        <h2>Buku Tamu</h2>
+    <div class="card" id="bukutamu">
+    <h2>Buku Tamu</h2>
+    <p>Silakan tinggalkan pesan, kritik, atau saran untuk kami.</p>
 
-        <p>
-            Tinggalkan pesan, kritik,
-            atau saran untuk kami.
-        </p>
+    <form method="post" action="">
+        
+        <label>Nama Lengkap</label><br>
+        <input type="text" name="nama" placeholder="Masukkan nama lengkap" required>
+        <br><br>
 
-        <button>Isi Buku Tamu</button>
-    </div>
+        <label>Email</label><br>
+        <input type="email" name="email" placeholder="Masukkan email" required>
+        <br><br>
+
+        <label>No HP</label><br>
+        <input type="tel" name="nohp" placeholder="Masukkan nomor HP" required>
+        <br><br>
+
+        <label>Pesan</label><br>
+        <textarea name="pesan" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+        <br><br>
+
+        <input type="submit" name="kirim" value="Kirim">
+        <input type="reset" value="Bersihkan">
+
+    </form>
+</div>
 
     <div class="box" id="kontak">
         <h2>Hubungi Kami</h2>
