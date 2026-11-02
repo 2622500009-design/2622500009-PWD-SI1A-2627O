@@ -175,6 +175,14 @@ footer{
     padding: 35px 6%;
 }
 
+/* MEMPERBAIKI TAMPILAN BAGIAN WEBSITE */
+.tentang,
+.identitas,
+.buku-tamu,
+.kontak {
+    padding: 35px 6%;
+}
+
 /* IDENTITAS PEMILIK */
 .profil {
     max-width: 850px;
@@ -186,9 +194,61 @@ footer{
 }
 
 .profil img {
-    width: 120px;
+    width: 150px;
     height: 150px;
+    border-radius: 50%
     object-fit: cover;
-    border-radius: 12px;
-    flex-shrink: 0;
+    display:block;
+    margin:auto;
+    border:4px solid #60a5fa
+}
+
+/* BUKU TAMU */
+.form-tamu {
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-tamu textarea {
+    height: 90px;
+}
+
+/* DAFTAR PESAN */
+.daftar-tamu {
+    max-width: 600px;
+    margin: 25px auto 0;
+}
+
+.pesan-card {
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+/* KARTU PRODUK */
+.produk-container {
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+}
+
+.card img {
+    height: 160px;
+}
+
+/* AGAR SESUAI DI LAYAR KECIL */
+@media (max-width: 600px) {
+    .profil {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profil img {
+        width: 120px;
+        height: 150px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
 }
