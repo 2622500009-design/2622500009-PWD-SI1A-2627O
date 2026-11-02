@@ -252,3 +252,16 @@ footer{
         font-size: 30px;
     }
 }
+
+button{
+    background: #2563eb;
+    color:white;
+    border: none;
+    padding:12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #1d4ed8;
+}
