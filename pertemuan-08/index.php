@@ -241,9 +241,9 @@
 
         <h3>DHIFA FLATSHOES</h3>
 
-        <p>Elegant Shoes, Comfortable Steps.</p>
+        <p>2622500009-Dhifa Fahrunnisah</p>
 
-        <p>&copy; 2026 Dhifa Flatshoes. All Rights Reserved.</p>
+        <p>&copy; UTS PEMROGRAMAN WEB DASAR.</p>
 
     </footer>
 
