@@ -137,6 +137,29 @@ body{
     border-radius:20px;
 }
 
+.card form input,
+.card form textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card form input[type="submit"],
+.card form input[type="reset"] {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card form input[type="submit"]:hover,
+.card form input[type="reset"]:hover {
+    background-color: #0d47a1;
+}
+
 /* Informasi */
 .info{
     padding:30px;
