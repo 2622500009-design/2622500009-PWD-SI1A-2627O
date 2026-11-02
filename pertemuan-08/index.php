@@ -246,3 +246,12 @@
 </body>
 
 </html>
+
+<div class="product-card">
+    <div class="product-image">
+        <img src="assets/sepatu1.jpg">
+    </div>
+    <div class="product-info">
+        <h2>Blue Ribbon Flatshoes</h2>
+    </div>
+</div>
