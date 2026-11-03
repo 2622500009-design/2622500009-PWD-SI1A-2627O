@@ -18,7 +18,6 @@
 
 <body>
 
-    <!-- Navbar -->
     <nav class="navbar">
 
         <div class="logo">
@@ -38,7 +37,6 @@
     </nav>
 
 
-    <!-- Hero -->
     <section class="hero">
 
         <div class="hero-text">
@@ -64,7 +62,6 @@
     </section>
 
 
-    <!-- Produk -->
     <section id="produk">
 
         <h2>Koleksi Flatshoes</h2>
@@ -158,7 +155,6 @@
     </section>
 
 
-    <!-- Informasi -->
     <section class="info">
 
         <div class="card" id="bukutamu">
