@@ -16,14 +16,15 @@
 
 <script src="script.js"></script>
 
-<body>
 
-    <nav class="navbar">
-
-        <div class="logo">
+<header>
+    <div class="logo">
             <h1>Dhifa Flatshoes</h1>
             <p>Elegant Shoes, Comfortable Steps</p>
         </div>
+</header>
+
+    <nav class="navbar">
 
         <ul>
             <li><a href="#"><i class="fa fa-home"></i> Beranda</a></li>
@@ -36,7 +37,7 @@
 
     </nav>
 
-
+<body>
     <section class="hero">
 
         <div class="hero-text">
@@ -213,8 +214,6 @@
 
                 <input type="submit" name="kirim" value="Kirim">
 
-                <input type="reset" value="Bersihkan">
-
             </form>
 
         </div>
@@ -231,8 +230,6 @@
 
     </section>
 
-
-    <!-- Footer -->
     <footer>
 
         <h3>DHIFA FLATSHOES</h3>

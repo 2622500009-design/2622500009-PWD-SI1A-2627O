@@ -47,7 +47,6 @@ switch ($programStudi) {
         $fokusProgramStudi = "Belum ditentukan";
 }
 
-// Status mahasiswa dengan operator ternary
 $teksStatus = $statusAktif ? "Aktif" : "Tidak aktif";
 ?>
 

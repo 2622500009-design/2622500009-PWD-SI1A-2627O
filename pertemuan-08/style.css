@@ -16,7 +16,7 @@ body{
 .navbar{
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items: center;
     padding:20px;
     background: #DCEBFA;
     gap: 10px;
@@ -43,7 +43,6 @@ body{
     border:1px solid #ccc;
 }
 
-/* Hero */
 .hero{
     height: 500px;
 
@@ -303,4 +302,3 @@ button{
 button:hover{
     background: #1d4ed8;
 }
-

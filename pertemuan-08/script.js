@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    // Navbar saat halaman di-scroll
     let navbar = document.querySelector(".navbar");
 
     window.addEventListener("scroll", function() {
@@ -13,8 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-
-    // Tombol pesan produk
     let produk = document.querySelectorAll(".produk-container .card");
 
     produk.forEach(function(card) {
@@ -39,8 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-
-    // Form buku tamu
     let form = document.querySelector("#bukutamu form");
 
     if (form) {
@@ -62,8 +57,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-
-    // Tombol kembali ke atas
     let tombolAtas = document.querySelector("#tombolAtas");
 
     if (tombolAtas) {
