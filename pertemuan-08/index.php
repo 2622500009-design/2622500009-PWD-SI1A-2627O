@@ -167,6 +167,13 @@
             </p>
 
             <form method="post" action="">
+                <form action="hasil.php" method="POST">
+                <input type="text" name="Nama Lengkap" placeholder="Masukkan nama lengkap">
+                <input type="email" name="Email" placeholder="Masukkan email">
+                <input type="text" name="No HP" placeholder="Masukkan nomor HP">
+                <textarea name="Pesan" placeholder="Tulis pesan Anda..."></textarea>
+                <button type="submit">Kirim</button>
+</form>
 
                 <label>Nama Lengkap</label><br>
 
